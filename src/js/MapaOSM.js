@@ -11,7 +11,7 @@ function cargarMapa(p_coordenadas){
 	});
 
 	// Se obtiene todos los barrios de Asuncion.
-    $.getJSON("../datos/barrios/Asuncion.geojson", function(data){
+    $.getJSON("datos/barrios/Asuncion.geojson", function(data){
         v_layer_todos_barrios_asu = L.geoJson(data, {
 			style: function(feature) {
 			    switch (feature.properties.turno) {
