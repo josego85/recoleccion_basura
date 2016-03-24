@@ -1,0 +1,31 @@
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    background-color: #b0c89f;
+}
+
+#map-container {
+    height: 520px;
+    /*background-color: #FFF*/
+}
+
+#map-outer {
+    /*height: 600px;*/
+    padding: 20px;
+    border: 2px solid #CCC;
+    margin: 60px;
+    background-color: #FFF
+}
+
+.leyenda {
+    opacity: 0.7;
+}
+
+@media all and (max-width: 991px) {
+    #map-outer  {
+        /*height: 600px*/
+    }
+}
