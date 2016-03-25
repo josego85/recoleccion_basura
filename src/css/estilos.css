@@ -4,12 +4,12 @@ html {
 
 body {
     height: 100%;
-    background-color: #b0c89f;
+    background-color: #D1D1D1;
 }
 
 #map-container {
     height: 520px;
-    /*background-color: #FFF*/
+    background-color: #D1D1D1;
 }
 
 #map-outer {
@@ -18,10 +18,6 @@ body {
     border: 2px solid #CCC;
     margin: 60px;
     background-color: #FFF
-}
-
-.leyenda {
-    opacity: 0.7;
 }
 
 @media all and (max-width: 991px) {
